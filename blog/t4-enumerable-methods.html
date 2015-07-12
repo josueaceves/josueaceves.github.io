@@ -15,18 +15,32 @@
   <div id="body">
 
     <p>
-    <h3>.map method</h3>
-      The map method takes an enumerable object and a block, and runs the block for each element, outputting each returned value from the block (the original object is unchanged unless you use map!):
-  </p>
+    <h2>.map method</h2>
 
 
 
 
-
-
-
-
+<p>
+The map method runs a block for each element in an array. It is used in enumerator objects. We commonly effectuate calculations or changes inside arrays. For example, lets say that you want to add  a number to every element inside an array, you would then use the map method. The map method iterates through an array, element by element until it goes through each elemet and finishes. At the end, map returns the outcome based on the instructions addressed inside the block of map. Here is a quick example:
+ </p>
+<p>
+array = [10 ,20 , 30, 40, 50, 60] --> here we have an array containing numbers.
+lets say those numbers represented the age of artfacts in a museum two years ago, so now its time to add 2 years to each artfact for the array to represent the current ago. To do this we need to use the map method.
+array.map{|x| x + 2}.
+</p>
+<p>
+After the map method finishes the iteration, it returns the outcome in an array.
+This can be very helpful to alot of us, but imagine if you actually wanted to mutate the original array definitely. For this we would add a bang(!) to the map method. so, it would look like this: array.map!{|x| x + 2}. This modifies the original array and returns it instead of creating a
+</p>
 
 </div>
   </body>
+
+  <footer>
+    <a href=""><img src="http://www.reignitestudios.com/wp-content/uploads/2014/01/email-icon.png"></a>
+    <a href="https://www.facebook.com/josue.aceves1"><img src="http://www.iconarchive.com/download/i52502/iconshock/high-detail-social/facebook.ico"></a>
+    <a href="https://www.linkedin.com/profile/view?id=220481073&trk=hp-identity-name"><img src="http://www.xordataexchange.com/wp-content/uploads/2014/09/linked_icon.png"></a>
+    <a href="https://github.com/josueaceves"><img src="http://files.softicons.com/download/social-media-icons/glowing-social-network-icons-by-aaron-nichols/png/600/GitHub_Icon.png"></a><a href="https://twitter.com/josue_aceves"><img src="http://icons.iconarchive.com/icons/emey87/social-button/256/twitter-icon.png"></a>
+
+  </footer>
 </html>
