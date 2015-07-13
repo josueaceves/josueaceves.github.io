@@ -9,7 +9,7 @@ body h1{
 }
 #body {
   width:100%;
-  height:55em;
+  height:50em;
   background-color:#CACAA8;
   font-family: fantasy;
   color:white;
@@ -23,7 +23,7 @@ footer{
   width:100%;
   height:8em;
   border:2px solid gray;
-  margin-top: 2em;
+  margin-top: 0;
 
 }
 
