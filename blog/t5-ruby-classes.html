@@ -13,14 +13,14 @@
   <div id = "body">
 
     <p>
-      When I first started reading about Ruby classes, I was so confused because the sentence description of a ruby class was not clear to me at all; "A class is like a blueprint that allows you to create objects of a particular type." What does that really mean? Understanding classes is not particularly easy. It takes some reading or a very good person to explain it. Imagine that a class is a factoriu which takes in a wood log and and outputs a carved wood sculpture. Imagine a method that takes in a name and puts out a sentense that inlcudes that name.</p>
+      When I first started reading about Ruby classes, I was so confused because the sentence description of a ruby class was not clear to me at all; "A class is like a blueprint that allows you to create objects of a particular type." What does that really mean? Understanding classes is not particularly easy. It takes some reading or a very good person to explain it. Imagine that a class is a factory which takes in a wood log and returns a carved wood sculpture. Now imagine a method that takes in a name and puts out a sentense that inlcudes that name in it.</p>
       <p><img  src="http://josueaceves.github.io/blog/class.png"></p>
      <p>
       In the image above you see the class MakeNameASentence. The first method is a method called initialize. This method usually hold the parameter(input).
-      The input is the name that will be put through the class.
+      The input is the name that will be put through the class. The class valible(@name) stores the parameter data from the initialize method.
      </p>
       <p>
-       Now we have a class. How do we put it to work? Well, we have you create a object with it. So we do:
+       Now we have a class. How do we put it to work? Well, we have to create an instance of the class. So, we do this:
       </p>
       <p id = "line">
       name = class MakeNameASentence.new("your name")
@@ -34,15 +34,8 @@
         <img src="http://josueaceves.github.io/blog/class2.png">
 
 
-
     <p>
-      Write a blog post about the class you designed. This is part of your portfolio that will help set you apart to employers when you graduate, so have fun and show your enthusiasm!
-
-
-
-    </p>
-    <p>
-
+        As you can see, the input that the initialize method takes in is being used. The class or factory that we created, is taking the name and returning a formated sentence. Classes can also take in a number and return a calculation of your choice.
     </p>
 
 
