@@ -14,14 +14,20 @@ body h1{
 
 #body {
   width:100%;
-  height:60em;
+  height:100em;
   background-color:#CACAA8;
   font-family: fantasy;
   color:white;
+  padding:0.5em;
 }
  #body p {
   font-size: 25px;
+
  }
+#line {
+  text-align: center;
+}
+
  footer{
    background-color:#CACAA8;
   width:100%;
