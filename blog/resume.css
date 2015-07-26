@@ -1,0 +1,34 @@
+html
+{
+
+  background-color:#4093E6;
+}
+body h1{
+  text-align: center;
+
+}
+#body {
+  width:100%;
+  height:60em;
+  background-color:#CACAA8;
+  font-family: fantasy;
+  color:white;
+}
+body div p{
+  font-size: 25px;
+  }
+footer{
+   background-color:#CACAA8;
+  width:100%;
+  height:8em;
+  border:2px solid gray;
+  margin-top: 4em;
+
+}
+
+footer a img{
+    float: right;
+  width: 5em;
+  height:5em;
+  margin: 1em;
+}
