@@ -1,11 +1,12 @@
 
 html{
   background-image: url("http://josueaceves.github.io/projects/sky.png");
+
 }
 
 
 nav{
-  background-image: url("http://josueaceves.github.io/projects/nav.png");;
+  background-image: url("http://josueaceves.github.io/projects/nav.png");
   width:100%;
   height:8em;
   border:2px solid gray;
@@ -28,19 +29,19 @@ font-size: 20px;
 }
 
 
-nav img {
+/*nav img {
   width:9em;
   height:8em;
   float:left;
 
 
-}
+}*/
 
 
 
 
 main{
-  background-color:#CACAA8;
+  background-image: url("http://josueaceves.github.io/projects/nav.png");
   height:30em;
   width:100%;
   border:2px solid gray;
@@ -78,7 +79,7 @@ display: inline-block;
 
 
 footer{
-   background-color:#CACAA8;
+   background-image: url("http://josueaceves.github.io/projects/nav.png");
   width:100%;
   height:8em;
   border:2px solid gray;
