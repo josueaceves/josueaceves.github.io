@@ -1,0 +1,38 @@
+ch.description{
+  background-color: white;
+  width: 60%;
+  height: 500px;
+  margin: auto;
+  margin-bottom: 10px;
+  border: 2px solid black;
+  border-radius: 4px;
+}
+.method{
+  width: 150px;
+  height: 30px;
+  text-align: center;
+  padding-top: 10px;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+  font-size: 20px;
+  background-color: black;
+  color: white;
+}
+.example{
+  width: 600px;
+  height: 300px;
+  margin-left: 70px;
+}
+
+body{
+  background-color: #1D08A3;
+  font-family: sans-serif;
+}
+p{
+  padding-left: 30px;
+  text-align: left;
+}
+h1{
+  text-align: center;
+  color: white;
+}
