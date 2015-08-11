@@ -57,7 +57,7 @@ display: inline-block;
 #lcolumn{
 display: inline-block;
   width: 35%;
-  background-color:#C6F1FF;
+background-image: url("http://josueaceves.github.io/aura.png");
   height: 20em;
   margin-top: 4em;
   border-radius: 40%;
@@ -67,7 +67,7 @@ display: inline-block;
 #rcolumn{
   display: inline-block;
   width: 35%;
-  background-color:#C6F1FF;
+  background-image: url("http://josueaceves.github.io/aura.png");
   height: 20em;
   float: right;
   border-radius: 40%;
