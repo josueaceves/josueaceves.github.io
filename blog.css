@@ -4,17 +4,18 @@ html{
 }
 
 img {
-  width: 15em;
-  height: 15em;
-border-radius: 2em;
+  width: 12em;
+  height: 12em;
+border-radius: .5em;
 }
 nav{
  background-image: url("http://josueaceves.github.io/back_paper.png");
-  width:80%;
+  width:83.5%;
   height:8em;
   border:2px solid gray;
   text-align: center;
   float: right;
+  border-radius: 2em;
 
 
 
@@ -25,7 +26,7 @@ nav a{
   display: inline-block;
   font-family: Sans-serif;
   font-weight: bold;
-  color:#4093E6;
+  color:#246B47;
   padding-left: 2em;
   margin-right: 2em;
   margin-top: 5em;
