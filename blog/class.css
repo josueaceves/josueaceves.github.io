@@ -1,8 +1,8 @@
 
 html{
 
-  background-color:#4093E6;
 
+background-image: url("http://josueaceves.github.io/projects/sky.png");
 }
 
 body h1{
@@ -13,27 +13,28 @@ body h1{
 
 
 #body {
-  width:95%;
-  height:100em;
-  background-color:#CACAA8;
+  width:100%;
+  height:130em;
+  background-image: url("http://josueaceves.github.io/back_paper.png");
   font-family: fantasy;
-  color:white;
-  padding:0.8em;
+  color:black;
+
 }
- #body p {
+ body  p {
   font-size: 25px;
+  padding:1em;
 
  }
-#line {
+.line {
   text-align: center;
 }
 
  footer{
-   background-color:#CACAA8;
+   background-image: url("http://josueaceves.github.io/back_paper.png");
   width:100%;
   height:8em;
   border:2px solid gray;
-  margin-top: 4em;
+  margin-top: 6em;
 
 }
 

@@ -1,7 +1,7 @@
 html
 {
 
-  background-color:#4093E6;
+ background-image: url("http://josueaceves.github.io/projects/sky.png");
 }
 body h1{
   text-align: center;
@@ -10,20 +10,20 @@ body h1{
 #body {
   width:100%;
   height:55em;
-  background-color:#CACAA8;
+  background-image: url("http://josueaceves.github.io/back_paper.png");
   font-family: fantasy;
-  color:white;
+  color:black;
 }
 body div p{
   font-size: 25px;
   padding:2em;
 }
 footer{
-   background-color:#CACAA8;
+    background-image: url("http://josueaceves.github.io/back_paper.png");
   width:100%;
   height:8em;
   border:2px solid gray;
-  margin-top: 2em;
+  margin-top: 6em;
 
 }
 
